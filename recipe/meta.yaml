@@ -1,6 +1,6 @@
 {% set name = "flask-rest-jsonapi" %}
-{% set version = "0.12.4" %}
-{% set sha256 = "984534d61fc6f367b1c3e977ff7de4dc8fbf89017d41eac1a7b42fb648780717" %}
+{% set version = "0.12.6" %}
+{% set sha256 = "e30429a59ca8b9e8d1df0b5b2e38b778cfccd32cbd4ce76dadaa8316b032c9bf" %}
 
 package:
   name: {{ name|lower }}
@@ -24,6 +24,7 @@ requirements:
     - python
     - six
     - flask >=0.11
+    - marshmallow 2.13.1
     - marshmallow-jsonapi
     - sqlalchemy
 
