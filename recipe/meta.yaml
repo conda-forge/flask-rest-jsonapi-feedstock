@@ -1,6 +1,6 @@
 {% set name = "flask-rest-jsonapi" %}
-{% set version = "0.12.6" %}
-{% set sha256 = "e30429a59ca8b9e8d1df0b5b2e38b778cfccd32cbd4ce76dadaa8316b032c9bf" %}
+{% set version = "0.13.0" %}
+{% set sha256 = "59f16454f14fb3f5f5935d9f79e668fdeec687b7c438d40f8a03a6d6d8f1437f" %}
 
 package:
   name: {{ name|lower }}
@@ -10,8 +10,6 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/miLibris/{{ name }}/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
-  patches:
-      - 3ae4482-fix-related-links.patch
 
 build:
   number: 1
