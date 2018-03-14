@@ -1,6 +1,6 @@
 {% set name = "flask-rest-jsonapi" %}
-{% set version = "0.16.2" %}
-{% set sha256 = "c1591e6ff97930995f43b5486055e65430804d34acc0b5fc89929527854a2da8" %}
+{% set version = "0.17.0" %}
+{% set sha256 = "1ee71bda08bf199ad126a23def764586cdc94008192c6efed3536d349d3024ac" %}
 
 package:
   name: {{ name|lower }}
