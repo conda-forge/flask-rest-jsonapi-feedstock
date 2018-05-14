@@ -18,14 +18,16 @@ complexity of real life projects with legacy data and multiple data storages
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flask-rest-jsonapi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flask-rest-jsonapi-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flask-rest-jsonapi-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flask-rest-jsonapi-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flask-rest-jsonapi-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flask-rest-jsonapi-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/flask-rest-jsonapi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/flask-rest-jsonapi-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/flask-rest-jsonapi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/flask-rest-jsonapi-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/flask-rest-jsonapi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/flask-rest-jsonapi-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-rest-jsonapi/badges/version.svg)](https://anaconda.org/conda-forge/flask-rest-jsonapi)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flask-rest-jsonapi/badges/downloads.svg)](https://anaconda.org/conda-forge/flask-rest-jsonapi)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-flask--rest--jsonapi-green.svg)](https://anaconda.org/conda-forge/flask-rest-jsonapi) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/flask-rest-jsonapi.svg)](https://anaconda.org/conda-forge/flask-rest-jsonapi) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/flask-rest-jsonapi.svg)](https://anaconda.org/conda-forge/flask-rest-jsonapi) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/flask-rest-jsonapi.svg)](https://anaconda.org/conda-forge/flask-rest-jsonapi) |
 
 Installing flask-rest-jsonapi
 =============================
