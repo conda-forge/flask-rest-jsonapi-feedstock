@@ -1,6 +1,6 @@
 {% set name = "flask-rest-jsonapi" %}
-{% set version = "0.21.0" %}
-{% set sha256 = "d60beb5185c28357d7f188053bfd7b4a71614305ee0fc7376c2772d664bf735e" %}
+{% set version = "0.22.0" %}
+{% set sha256 = "7f7380441cc2ea932aae4b1d1313b1f3451f8b611ce40d7dd829ea3cf18e0a0e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,12 +13,12 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
     - pytest-runner
   run:
     - python
