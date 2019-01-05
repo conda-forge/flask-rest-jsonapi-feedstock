@@ -1,6 +1,5 @@
 {% set name = "flask-rest-jsonapi" %}
 {% set version = "0.22.0" %}
-{% set sha256 = "7f7380441cc2ea932aae4b1d1313b1f3451f8b611ce40d7dd829ea3cf18e0a0e" %}
 
 package:
   name: {{ name|lower }}
@@ -9,10 +8,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/miLibris/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 7f7380441cc2ea932aae4b1d1313b1f3451f8b611ce40d7dd829ea3cf18e0a0e
 
 build:
-  number: 0
+  noarch: python
+  number: 1000
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - python
     - six
     - flask >=0.11
-    - marshmallow 2.13.1
+    - marshmallow 2.13.1.*
     - marshmallow-jsonapi
     - sqlalchemy
 
@@ -33,6 +33,12 @@ test:
     - flask_rest_jsonapi
     - flask_rest_jsonapi.data_layers
     - flask_rest_jsonapi.data_layers.filtering
+  source_files:
+    - tests
+  requires:
+    - pytest
+  commands:
+    - py.test tests
 
 about:
   home: http://github.com/miLibris/flask-rest-jsonapi
