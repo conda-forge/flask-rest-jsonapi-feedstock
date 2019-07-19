@@ -1,5 +1,5 @@
 {% set name = "flask-rest-jsonapi" %}
-{% set version = "0.30.0" %}
+{% set version = "0.30.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/miLibris/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: ebc8065211d5e03f175d5e9fba9585b7917db32378e680d3fdca86e33f4c4798
+  sha256: 39fd4c8e5eef85a37aab3337b09b9edc2ccfb1c1a7a97e4f2d5721a2acaa02a2
 
 build:
   noarch: python
